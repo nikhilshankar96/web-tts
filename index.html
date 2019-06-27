@@ -1,0 +1,120 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title -->
+		<title>WebTTS</title>
+
+		<!-- jQuery -->
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+		></script>
+
+		<!-- Materialize JS -->
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"
+		></script>
+
+		<!-- Materialize CSS -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"
+		/>
+
+		<!-- Materialize Icons -->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="App.css" />
+
+		<!-- Custom JS -->
+		<script src="App.js"></script>
+
+		<!--  -->
+	</head>
+	<body>
+		<!-- AAAAA -->
+
+		<header>
+			<h1 class="neon" id="headerTop ">WebTTS</h1>
+		</header>
+		<div class="container text-center">
+			<img
+				class="responsive-img"
+				id="robImg"
+				src="assets/robot-01-icon.png"
+				alt="Robot.img"
+				width="300px"
+			/>
+			<div class="row center-block">
+
+				<div class="center-block">
+				
+					<form action="#" autocomplete="off">
+						
+						<!-- Text input box -->
+							<textarea
+								name="textInputName"
+								cols="25"
+								rows="15"
+								class="white-text flow-text"
+								id="text-input"
+								type="text"
+								placeholder="Type here:"
+								autofocus
+							></textarea>
+						</div>
+
+						<!-- Dropdown select -->
+						<div class="form-group form">
+							<select id="voice-select "
+								>here</select
+							>
+						</div>
+
+						<!-- Button -->
+
+						<!--  -->
+						<!-- select  -->
+						<div>
+							<select id="voice-select"> </select>
+						</div>
+						<!--  -->
+
+						<!-- Dropdown trigger -->
+						<a
+							class="dropdown-button btn green white-text"
+							href="#"
+							data-activates="dropdown1"
+							style="width: 460px"
+
+							>Language</a
+						>
+						<!-- Dropdown Structure -->
+						<ul id="dropdown1" class="dropdown-content">
+							<!-- <li><a href="#!">one</a></li>
+							<li><a href="#!">two</a></li>
+							<li class="divider"></li>
+							<li><a href="#!">three</a></li> -->
+						</ul>
+						<!--  -->
+						<button class="btn waves-effect cyan" onclick="speakClicked()">
+							Speak!
+						</button>
+						<!-- -->
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
